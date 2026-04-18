@@ -1,0 +1,19 @@
+import java.util.*;
+public class p1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter distance in meters : ");
+        double meters = sc.nextDouble();
+
+        if (meters < 0) {
+            System.out.println("Please enter valid input!");
+        } 
+        else {
+            double feet = meters * 3.28084;
+            System.out.printf("Distance in feet : %.2f", feet);
+        }
+
+        sc.close();
+    }
+}
