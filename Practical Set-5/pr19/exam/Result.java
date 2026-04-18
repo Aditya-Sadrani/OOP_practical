@@ -12,7 +12,7 @@ public class Result extends Student {
         marks3 = m3;
     }
 
-    public void displayResult() {
+    public void displayResult() { 
         displayStudent();
 
         int total = marks1 + marks2 + marks3;
